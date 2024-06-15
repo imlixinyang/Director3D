@@ -14,9 +14,6 @@
 
 - 🥰 Check out our new gradio demo by simply running ```python app.py```.
 
-<img width=300 src='assets/demo.png'>
-
-
 - 🆓 Try out Director3D for free with our [**Google Colab Demo**](https://colab.research.google.com/drive/1LtnxgBU7k4gyymOWuonpOxjatdJ7AI8z?usp=sharing).
 
 ## 📖 Generation Results
