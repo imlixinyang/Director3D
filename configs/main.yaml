@@ -1,0 +1,78 @@
+
+network:
+  local_files_only: True
+  sd_model_key: stabilityai/stable-diffusion-2-1-base
+  image_size: 256
+  latent_size: 32
+  latent_channel: 4
+  extra_latent_channel: 508
+  num_input_views: 8
+  num_novel_views: 8
+
+  vae:
+    embed_dim: 4
+    ddconfig:
+      double_z: true
+      z_channels: 4
+      resolution: 256
+      in_channels: 3
+      out_ch: 3
+      ch: 128
+      ch_mult:
+        - 1
+        - 2
+        - 4
+        - 4
+      num_res_blocks: 2
+      attn_resolutions: []
+      dropout: 0.0
+
+  unet:
+    use_checkpoint: True
+    image_size: 32 # unused
+    in_channels: 4
+    out_channels: 4
+    model_channels: 320
+    attention_resolutions: [ 4, 2, 1 ]
+    num_res_blocks: 2
+    channel_mult: [ 1, 2, 4, 4 ]
+    num_head_channels: 64 # need to fix for flash-attn
+    use_spatial_transformer: True
+    use_linear_in_transformer: True
+    transformer_depth: 1
+    context_dim: 1024
+    legacy: False
+
+  cdm:
+    hidden_size: 512
+    num_blocks: 8
+    num_tokens: 29
+    block_args:
+      num_heads: 8
+      mlp_ratio: 4
+
+inference: 
+  refiner:
+    module: modules.refiners.sds_pp_refiner.GSRefinerSDSPlusPlus
+    args:
+      sd_model_key: 'stabilityai/stable-diffusion-2-1-base'
+      local_files_only: True
+      num_views: 1
+      img_size: 512
+      guidance_scale: 7.5
+      min_step_percent: 0.02 
+      max_step_percent: 0.75
+      num_densifications: 4
+      lr_scale: 0.25
+      lr_scale_end: 0.25
+      lrs: {'xyz': 0.0001, 'features': 0.01, 'opacity': 0.01, 'scales': 0.001, 'rotations': 0.01, 'embeddings': 0.01} 
+      use_lods: True
+      lambda_latent_sds: 1
+      lambda_image_sds: 0.1
+      lambda_mask_variation: 0.0
+      lambda_image_variation: 0.001
+      lambda_mask_saturation: 0.000
+      use_random_background_color: True
+      grad_clip: 1000
+      text_templete: $text$
+      negative_text_templete: 'unclear. noisy. point cloud. low-res.'

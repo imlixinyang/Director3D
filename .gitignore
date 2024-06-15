@@ -1,0 +1,8 @@
+model.ckpt
+exps
+diff-gaussian-rasterization
+pytorch3d
+**/__pycache__
+
+gradio_director3d.py
+EXP*
