@@ -23,7 +23,8 @@
 
 ❗ All videos are rendered with generated camera trajectories and 3D Gaussians, the only inputs are text prompts!
 
-https://github.com/imlixinyang/director3d/assets/26456614/2dc0ea45-b7a6-46ed-afc8-2359a43e0a54
+https://github.com/imlixinyang/Director3D/assets/26456614/b4e7d910-e3fd-4d32-895b-e35b837bc9a1
+
 
 👀 See more than 200 examples in our [**Gallery**](https://imlixinyang.github.io/director3d-page/gallery_0.html).
 
