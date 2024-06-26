@@ -103,14 +103,11 @@ python gradio_app.py
 ## Citation
 
 ```
-@misc{li2024director3drealworldcameratrajectory,
-      title={Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text}, 
-      author={Xinyang Li and Zhangyu Lai and Linning Xu and Yansong Qu and Liujuan Cao and Shengchuan Zhang and Bo Dai and Rongrong Ji},
-      year={2024},
-      eprint={2406.17601},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-      url={https://arxiv.org/abs/2406.17601}, 
+@article{li2024director3d,
+  author = {Xinyang Li and Zhangyu Lai and Linning Xu and Yansong Qu and Liujuan Cao and Shengchuan Zhang and Bo Dai and Rongrong Ji},
+  title = {Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text},
+  journal = {arXiv:2406.17601},
+  year = {2024},
 }
 ```
 
