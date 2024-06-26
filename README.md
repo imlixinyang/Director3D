@@ -68,7 +68,7 @@ python inference.py --export_all --text "a delicious hamburger on a wooden table
 ```
 
 This will take about 5 minutes per sample on a single A100 GPU (or 7 minutes per sample on a single RTX 3090 GPU).
-The results can be found in ``./exps/tmp``.
+The results, including videos, images, cameras and 3DGS (``.splat``&``.ply``), can be found in ``./exps/tmp``.
 
 ## 💡 Code Overview
 
