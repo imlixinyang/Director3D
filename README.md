@@ -3,7 +3,7 @@
 <!--   <h1 align="center"><img height="100" src="https://github.com/imlixinyang/director3d-page/raw/master/assets/icon.ico"></h1> -->
   <h1 align="center">🎥 <b>Director3D</b>: Real-world Camera Trajectory and 3D Scene Generation from Text</h1>
   <p align="center">
-        <a href="http://arxiv.org/abs/2404.11613"><img src='https://img.shields.io/badge/arXiv-Director3D-red?logo=arxiv' alt='Paper PDF'></a>
+        <a href="https://arxiv.org/pdf/2406.17601"><img src='https://img.shields.io/badge/arXiv-Director3D-red?logo=arxiv' alt='Paper PDF'></a>
         <a href='https://imlixinyang.github.io/director3d-page'><img src='https://img.shields.io/badge/Project_Page-Director3D-green' alt='Project Page'></a>
         <a href='https://colab.research.google.com/drive/1LtnxgBU7k4gyymOWuonpOxjatdJ7AI8z?usp=sharing'><img src='https://img.shields.io/badge/Colab_Demo-Director3D-yellow?logo=googlecolab' alt='Project Page'></a>
   </p>
@@ -103,6 +103,15 @@ python gradio_app.py
 ## Citation
 
 ```
+@misc{li2024director3drealworldcameratrajectory,
+      title={Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text}, 
+      author={Xinyang Li and Zhangyu Lai and Linning Xu and Yansong Qu and Liujuan Cao and Shengchuan Zhang and Bo Dai and Rongrong Ji},
+      year={2024},
+      eprint={2406.17601},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+      url={https://arxiv.org/abs/2406.17601}, 
+}
 ```
 
 
