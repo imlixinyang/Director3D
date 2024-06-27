@@ -224,10 +224,10 @@ class App():
         elev = -52   
         azim = 180 
 
-        # 创建视点变换
+        # demo default view transform 
         R, T = look_at_view_transform(dist, elev, azim)
 
-        # 创建相机实例
+        # craeate view camera
         cameras_view = FoVPerspectiveCameras(R=R, T=T)
         fig = plot_scene(
             {" ":camera_scene[0]},
