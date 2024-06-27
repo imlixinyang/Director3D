@@ -121,4 +121,3 @@ The code is released for academic research use only.
 
 If you have any questions, please contact me via [imlixinyang@gmail.com](mailto:imlixinyang@gmail.com). 
 
-#### 👊 I'm looking for research collaboration in Real-world 3D/4D/Video Generation, please contact me if you're interested.
