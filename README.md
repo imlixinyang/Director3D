@@ -10,6 +10,12 @@
 
 <img src='assets/pipeline.gif'>
 
+**🔥 Takeaways**:
+
+- A trajectory diffusion model for generating suquential camera intrinsics & extrinsics given texts.
+- A 3DGS-driven multi-view latent diffusion model for generating coarse 3DGS given cameras and texts in 20 seconds.
+- A more advanced SDS loss, named SDS++, for refining coarse 3DGS to real-world visual quality in 5 minutes.
+
 **🔥 News**:
 
 - 🥰 Check out our new gradio demo by simply running ```python app.py```.
