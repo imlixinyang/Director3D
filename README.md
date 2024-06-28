@@ -10,7 +10,7 @@
 
 <img src='assets/pipeline.gif'>
 
-**⭐ Takeaways**:
+**⭐ Key components of Director3D**:
 
 - A trajectory diffusion model for generating suquential camera intrinsics & extrinsics given texts.
 - A 3DGS-driven multi-view latent diffusion model for generating coarse 3DGS given cameras and texts in 20 seconds.
