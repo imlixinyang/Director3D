@@ -105,6 +105,13 @@ python gradio_app.py
 ``` -->
 
 <!-- ## Acknowledgement -->
+
+## ❓ FAQ
+
+1. ``torch.cuda.OutOfMemoryError: CUDA out of memory.`` 
+
+  Please refer to [this issue](https://github.com/imlixinyang/Director3D/issues/4#issuecomment-2210183755)
+
  
 ## Citation
 
