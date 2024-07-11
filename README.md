@@ -50,7 +50,7 @@ conda install xformers -c xformers
 ```
 - install ```pip``` packages
 ```
-pip install kiui scipy opencv-python-headless kornia omegaconf imageio imageio-ffmpeg  seaborn==0.12.0 plyfile ninja tqdm diffusers transformers accelerate timm einops matplotlib plotly typing argparse gradio kaleido
+pip install kiui scipy opencv-python-headless kornia omegaconf imageio imageio-ffmpeg  seaborn==0.12.0 plyfile ninja tqdm diffusers transformers accelerate timm einops matplotlib plotly typing argparse gradio kaleido==0.1.0post1
 pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
 pip install "git+https://github.com/ashawkey/diff-gaussian-rasterization.git"
 ```
