@@ -24,6 +24,8 @@
 
 - 😊 Our paper is accepted by NeurIPS 2024.
 
+- 🔧 We fix a bug in SDS++ loss. The visual quality further improved. Have a try!
+
 ## 📖 Generation Results
 
 ❗ All videos are rendered with generated camera trajectories and 3D Gaussians, the only inputs are text prompts!
