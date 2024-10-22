@@ -169,7 +169,7 @@ class GSRefinerSDSPlusPlus(nn.Module):
             w = (1 - self.alphas_cumprod[t]).view(-1, 1, 1, 1)
 
             alpha = self.alphas_cumprod[t].view(-1, 1, 1, 1) ** 0.5
-            sigma = (1 - alpha) ** 0.5
+            sigma = (1 - self.alphas_cumprod[t].view(-1, 1, 1, 1)) ** 0.5
 
             latents_pred = (latents_noisy - sigma * (noise_pred - noise_pred_learnable + noise)) / alpha
             images_pred = self.decode_latent(latents_pred).clamp(-1, 1)
