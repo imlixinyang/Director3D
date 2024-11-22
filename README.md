@@ -116,6 +116,10 @@ python gradio_app.py
 
   Please refer to [this issue](https://github.com/imlixinyang/Director3D/issues/4#issuecomment-2210183755)
 
+2. ``Training code.``
+
+  Please directly email me at imlixinyang@gmail.com for the uncleaned code if you are interested about training your own Director3D.
+
  
 ## Citation
 
