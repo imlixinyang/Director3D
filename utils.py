@@ -100,6 +100,9 @@ def sample_from_two_pose(pose_a, pose_b, fraction, noise_strengths=[0, 0]):
     quat_a = matrix_to_quaternion(pose_a[..., :3, :3])
     quat_b = matrix_to_quaternion(pose_b[..., :3, :3])
 
+    dot = torch.sum(quat_a * quat_b, dim=-1, keepdim=True)
+    quat_b = torch.where(dot < 0, -quat_b, quat_b)
+
     quaternion = quaternion_slerp(quat_a, quat_b, fraction)
     quaternion = torch.nn.functional.normalize(quaternion + torch.randn_like(quaternion) * noise_strengths[0], dim=-1)
 
