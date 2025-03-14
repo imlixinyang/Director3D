@@ -118,7 +118,9 @@ python gradio_app.py
 
 2. ``Training code.``
 
-  Please directly email me at imlixinyang@gmail.com for the uncleaned code if you are interested about training your own Director3D.
+  Here is the uncleaned training code for Director3D: (https://drive.google.com/drive/folders/1b4fqEO6H0zcXUT6N1FY2CJa1T0qupE6R?usp=drive_link). 
+  However, please notice that some classes may have different names compared to the released part. You may need to make minor modifications accordingly to make them work.
+  Feel free to leave an issue if you found any questions.
 
  
 ## Citation
