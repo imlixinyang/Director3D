@@ -118,8 +118,8 @@ python gradio_app.py
 
 2. ``Training code.``
 
-  Here is the uncleaned training code for Director3D: (https://drive.google.com/drive/folders/1b4fqEO6H0zcXUT6N1FY2CJa1T0qupE6R?usp=drive_link). 
-  However, please notice that some classes may have different names compared to the released part. You may need to make minor modifications accordingly to make them work.
+  Here is the uncleaned training code and preprocess scripts for Director3D: [Google Drive](https://drive.google.com/drive/folders/1b4fqEO6H0zcXUT6N1FY2CJa1T0qupE6R?usp=drive_link). 
+  However, some classes may have different names compared to the released part. You may need to make minor modifications accordingly to make them work.
   Feel free to leave an issue if you found any questions.
 
  
