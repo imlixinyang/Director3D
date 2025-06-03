@@ -22,7 +22,7 @@
 
 - 🆓 Try out Director3D for free with our [**Google Colab Demo**](https://colab.research.google.com/drive/1LtnxgBU7k4gyymOWuonpOxjatdJ7AI8z?usp=sharing).
 
-- 😊 Our paper is accepted by NeurIPS 2024.
+- 😄 Our paper is accepted by NeurIPS 2024.
 
 - 🔧 We fix a bug in SDS++ loss. The visual quality further improved. Have a try!
 
